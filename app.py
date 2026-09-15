@@ -4,5 +4,10 @@ t = Turtle()
 
 t.shape('turtle')
 
-t.forward(100)
-turtle.done()
+t.forward(200)
+
+def message(input):
+        print(input)
+message("Hello Class")
+
+Turtle.done
