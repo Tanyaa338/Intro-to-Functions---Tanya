@@ -6,11 +6,11 @@ t.shape('turtle')
 """ 
 t.forward(200) """
 
-def message(input):
+""" def message(input):
     print(input)
-message("Hello Class")
+message("Hello me")
 
-message.done = True
+message.done = True """
 
 
 """ def add(x,y)
@@ -47,13 +47,21 @@ equal(200)  """
     t.forward(142)
 right() """
 
-def rectangle(x):
-    t.forward(x)
-    t.left(100)
-    t.forward(x/2)
-    t.left(125)
-    t.forward(x)
-    t.left(100)
-    t.forward(x/2)
-    t.left(125)
-rectangle(200)
+""" def rectangle(x):
+    t.forward(100)
+    t.left(90)
+    t.forward(125)
+    t.left(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(125)
+    t.left(90)
+rectangle(200) """
+
+def equal(x):
+    t.forward(90)
+    t.left(120)
+    t.forward(90)
+    t.left(120)
+    t.forward(90)
+equal(200) 
