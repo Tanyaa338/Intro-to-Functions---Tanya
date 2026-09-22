@@ -25,8 +25,16 @@ t.shape('turtle')
 for i in range(3):
     print(i)
 
-for i in range(4):
-    t.forward(100)
-    t.left(90)
+def Square(x):
+    for i in range(4):
+        t.forward(x)
+        t.left(90)
 
+def triangle(x):
+    for i in range(3):
+     t.forward(100)
+     t.left(120)
 
+for i in range(60):
+   t.Square 
+   t.left(5)
