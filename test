@@ -29,3 +29,28 @@ bill=input("how much was the bill")
 print(int(bill)+20)
 
 input always produces a string
+
+#integer
+x=7 
+#string
+name="Ellie"
+#BooLean
+isValid=True
+#Float 
+bill=56.86
+#List
+students=["Ellie", "Preston", "Ben", "Elyse"]
+students.append("Sofia")
+print(students[-1])
+#If he wants to loop through the list
+for student in students:
+    if student=="Ben":
+        print(f'we found {student}')
+
+    i will represent student
+
+    y=input("Who am I")
+    Input always outputs a string
+    y = input("money?")
+    z = y + 5
+    
