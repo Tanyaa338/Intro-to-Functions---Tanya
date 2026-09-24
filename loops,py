@@ -22,19 +22,20 @@ t = Turtle()
 
 t.shape('turtle')
 
-for i in range(3):
-    print(i)
+""" for i in range(3):
+    print(i) """
 
 def square(x):
     for i in range(4):
         t.forward(x)
         t.left(90)
-        
 
-def triangle(x):
+
+""" def triangle(x,y):
     for i in range(3):
      t.forward(100)
      t.left(120)
+triangle(100,100)
 
 def sixtysquare(x,y):
    for i in range(60):
@@ -43,3 +44,32 @@ def sixtysquare(x,y):
          t.forward(100)
          t.left(90)
 sixtysquare(100,90)
+
+sidelength = 100
+rotate = 90
+def square(x,y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+triangle(100,90)
+
+def addSquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length, 90)
+        length += 25
+addSquares(5)
+
+def addSquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length, 90)
+        length += 25
+addSquares(5) """
+
+def sixtysquare(iRange):
+   length = 5
+   for i in range(iRange):
+      sixtysquare(length,90)
+      length += 5
+sixtysquare(5)

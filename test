@@ -53,4 +53,14 @@ for student in students:
     Input always outputs a string
     y = input("money?")
     z = y + 5
-    
+
+if age > 65:
+    print("senior")
+elif(age > 18):
+    adult
+
+Unit 2
+x = "Elyse has asked me a question"
+print(x.split(" "))
+List of strings
+print(len(x.split("")))
