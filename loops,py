@@ -25,10 +25,10 @@ t.shape('turtle')
 """ for i in range(3):
     print(i) """
 
-def square(x):
+""" def square(x):
     for i in range(4):
         t.forward(x)
-        t.left(90)
+        t.left(90) """
 
 
 """ def triangle(x,y):
@@ -39,7 +39,7 @@ triangle(100,100)
 
 def sixtysquare(x,y):
    for i in range(60):
-      t.left(5)
+      t.right(5)
       for i in range(4):
          t.forward(100)
          t.left(90)
@@ -67,9 +67,30 @@ def addSquares(iRange):
         length += 25
 addSquares(5) """
 
-def sixtysquare(iRange):
+""" def assessment(iRange):
    length = 5
-   for i in range(iRange):
-      sixtysquare(length,90)
-      length += 5
-sixtysquare(5)
+   for i in range(60):
+    t.right(5)
+    length +=5
+    for i in range(4):
+         t.forward(length)
+         t.left(90)
+assessment(60) """
+
+""" def star(iRange):
+    length = 5
+    angle = 144
+    for i in range(iRange):
+        for i in range(5):
+            t.forward(100)
+            t.right(144)
+star(length, angle) """
+
+def star(iRange):
+    length = 100
+    for i in range(iRange):
+        (length, 144)
+        for i in range(1):
+              t.forward(length)
+              t.left(144)
+star(5)
