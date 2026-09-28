@@ -89,7 +89,7 @@ star(5) """
 def star(iRange):
     length = 100
     for i in range(iRange):
-        star(iRange)
+        star(iRange):
         length = length * 2
         for i in range(60):
              t.left(5)
