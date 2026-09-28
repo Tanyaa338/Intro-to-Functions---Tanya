@@ -78,19 +78,22 @@ addSquares(5) """
 assessment(60) """
 
 """ def star(iRange):
-    length = 5
-    angle = 144
-    for i in range(iRange):
-        for i in range(5):
-            t.forward(100)
-            t.right(144)
-star(length, angle) """
-
-def star(iRange):
     length = 100
     for i in range(iRange):
         (length, 144)
         for i in range(1):
               t.forward(length)
               t.left(144)
+star(5) """
+
+def star(iRange):
+    length = 100
+    for i in range(iRange):
+        star(iRange)
+        length = length * 2
+        for i in range(60):
+             t.left(5)
+             for i in range(1):
+                   t.forward(length)
+                   t.left(144)
 star(5)
